@@ -1,6 +1,6 @@
 <h1 align="center"> BÁO CÁO TUẦN 1 </h1> 
 
-## ***Trần Minh Quang***
+## ***Thực tập sinh: Trần Minh Quang***
 
 ## **I. Động cơ không chổi than**
 
