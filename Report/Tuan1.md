@@ -1,8 +1,8 @@
-<h1 align="center"> BÁO CÁO TUẦN 1 </h1> 
+<h1 align="center"> 1ST WEEK REPORT </h1> 
 
-## ***Thực tập sinh: Trần Minh Quang***
+## ***Intern: Tran Minh Quang***
 
-## **I. Brushless Direct Current (BLDC) Motor **
+## **I. Brushless Direct Current (BLDC) Motor**
 
 > ### **1. Definition**
 
