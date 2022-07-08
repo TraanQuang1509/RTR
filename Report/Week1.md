@@ -164,9 +164,8 @@ The DShot protocol sends a 16bits data packet from the FC to the ESC, where:
 *ESC protocols speed*
 </div>
 
-## **I. PID Controller**
+## **IV. PID Controller**
 
-PID (stand for proportional integral derivative) controllers use a control loop feedback mechanism to control process variables and are the most accurate and stable controller.
 
 
 
