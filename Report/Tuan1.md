@@ -146,6 +146,11 @@ DShot comes in many versions:
 - DShot600: 600kbps, maximum update rate 32kHz
 - DShot1200: 1200kbps, maximum update rate 64kHz
 
+Advanatges of DShot:
+- Calibration is not necessary
+- Electrical noise cannot charge a throttle value
+- The ESC can detect and reject throttle data corrupted by noise 
+  
 The DShot protocol sends a 16bits data packet from the FC to the ESC, where:
 -  11 bits for throttle value (2^11 = 2048 steps) 
 -  1 bit for telemetry request
@@ -159,7 +164,4 @@ The DShot protocol sends a 16bits data packet from the FC to the ESC, where:
 *ESC protocols speed*
 </div>
 
-Advanatges of DShot:
-- Calibration is not necessary
-- Electrical noise cannot charge a throttle value
-- The ESC can detect and reject throttle data corrupted by noise 
+
