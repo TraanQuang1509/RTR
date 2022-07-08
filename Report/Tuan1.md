@@ -14,7 +14,7 @@
     - The stator consists of a steel core that is electrically insulated steel sheets and windings.
     - The rotor consists of a motor shaft and permanent magnets arranged alternately between the north and south poles.
 <div align="center">
-    <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Brushless-motor-main-parts-a-stator-and-a-rotor.png" width="00">
+    <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Brushless-motor-main-parts-a-stator-and-a-rotor.png" width="500">
     
 *Construction of BLDC*
 </div>
@@ -56,7 +56,7 @@ Basically, BLDC are of two types, one is outer rotor motor and other is inner ro
 - An ESC or an Electronic Speed Controller controls the brushless motor movement or speed by activating the appropriate MOSFETs to create the rotating magnetic field so that the motor rotates. The higher the frequency or the quicker the ESC goes through the 6 intervals, the higher the speed of the motor will be.
 
 <div align="center">
-    <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/How-does-an-ESC-Work-Electronic-Speed-Controller-768x365.png?ezimgfmt=ng:webp/ngcb2" width="500">
+    <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/How-does-an-ESC-Work-Electronic-Speed-Controller-768x365.png?ezimgfmt=ng:webp/ngcb2" width="600">
     
 *Electronic Speed Controller*
 </div>
@@ -83,7 +83,7 @@ Basically, BLDC are of two types, one is outer rotor motor and other is inner ro
 - PWM use a periodic input pulse of width typically between 1000uS and 2000uS for zero to full power
 
 <div align="center">
-        <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Arduino-Brushelss-Motor-Control-using-ESC.png" width="500">
+        <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Arduino-Brushelss-Motor-Control-using-ESC.png" width="600">
         
 *PWM Signal*
 </div>
@@ -103,7 +103,7 @@ Basically, BLDC are of two types, one is outer rotor motor and other is inner ro
 - There is little advantage for using this protocol over regular PWM. OneShot overcomes the disadvantage of PWM, which is the delay when updating
 
 <div align="center">
-        <img src="https://oscarliang.com/ctt/uploads/2015/03/oneshot-ESC-PWM-explain.jpg" width="500">
+        <img src="https://oscarliang.com/ctt/uploads/2015/03/oneshot-ESC-PWM-explain.jpg" width="600">
         
 *PWM & Oneshot*
 </div>
@@ -123,7 +123,7 @@ OneShot42 (Faster PWM) tương tự như OneShot125 nhưng nhanh gấp 3 lần (
 - Latency 84us
 - 
 <div align="center">
-        <img src="https://1.bp.blogspot.com/-zd02VHLotwY/XrDRHpsUADI/AAAAAAAAEEo/l8LzoISs2lw9wAbdz_HgnUbbGcbDJW9LQCLcBGAsYHQ/s1600/Screen%2BShot%2B2020-05-05%2Bat%2B12.35.54%2Bpm.png" width="500">
+        <img src="https://1.bp.blogspot.com/-zd02VHLotwY/XrDRHpsUADI/AAAAAAAAEEo/l8LzoISs2lw9wAbdz_HgnUbbGcbDJW9LQCLcBGAsYHQ/s1600/Screen%2BShot%2B2020-05-05%2Bat%2B12.35.54%2Bpm.png" width="600">
         
 *PWM, OneShot125 & OneShot42*
 </div>
@@ -159,7 +159,7 @@ The DShot protocol sends a 16bits data packet from the FC to the ESC, where:
 (For example DShot600 would have a frequency of 600,000/16 = 37500Hz = 37.5KHz. However, in practice, it will not as high as 37.5KHz because there needs to be some space between values)
 
 <div align="center">
-        <img src="https://oscarliang.com/ctt/uploads/2017/05/dshot1200-esc-protocol-speed-bitrate-latency.jpg" width="500">
+        <img src="https://oscarliang.com/ctt/uploads/2017/05/dshot1200-esc-protocol-speed-bitrate-latency.jpg" width="600">
         
 *ESC protocols speed*
 </div>
