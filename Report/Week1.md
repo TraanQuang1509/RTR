@@ -64,7 +64,7 @@ Basically, BLDC are of two types, one is outer rotor motor and other is inner ro
 - However, here comes an important question, and that’s how do we know when to activate which phase. The answer is that we need to know the position of the rotor and there are two common methods used for determining the rotor position.
     - The first common method is by using Hall-effect sensors embedded in the stator, arranged equally 120 or 60 degrees from each other. As the rotors permanent magnets rotate the Hall-effect sensors sense the magnetic field and generate a logic “high” for one magnetic pole or logic “low” for the opposite pole. According to this information the ESC knows when to activate the next commutation sequence or interval.
     <div align="center">
-        <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Brushless-motor-rotor-position-using-Hall-effect-sensors-768x412.png?ezimgfmt=ng:webp/ngcb2" width=70%>
+        <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Brushless-motor-rotor-position-using-Hall-effect-sensors-768x412.png?ezimgfmt=ng:webp/ngcb2" width=60%>
         
     *Hall-effect sensors*
     </div>
@@ -72,7 +72,7 @@ Basically, BLDC are of two types, one is outer rotor motor and other is inner ro
     - The second common method used for determining the rotor position is through sensing the back electromotive force or back EMF. The back EMF occurs as a result of the exact opposite process of generating a magnetic field or when a moving or changing magnetic field pass through a coil it induces a current in the coil. So, when the moving magnetic field of the rotor pass through the free coil, or the one that’s not active, it will induce a current flow in coil and as result a voltage drop will occur in that coil. The ESC captures these voltage drops as they occur and based on them it predicts or calculates when the next interval should take place.
 
     <div align="center">
-        <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Back-EMF-in-Brushless-motor-768x417.png?ezimgfmt=ng:webp/ngcb2" width=70%>
+        <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Back-EMF-in-Brushless-motor-768x417.png?ezimgfmt=ng:webp/ngcb2" width=60%>
         
     *Back EMF*
     </div>
