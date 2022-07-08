@@ -42,7 +42,7 @@ Basically, BLDC are of two types, one is outer rotor motor and other is inner ro
     
 *Working Principle*
 </div>
-****
+
 - In fact, to increase the interaction force, people will power both coils at the same time, the order of transition between the coils is controlled by the electronic circuit.
 
 <div align="center">
