@@ -18,6 +18,8 @@
 
 ![Cấu tạo BLDC](https://kienthuctudonghoa.com/wp-content/uploads/2020/10/dong-co-BLDC-3.jpg "Cấu tạo BLDC")
 
+<img src="https://kienthuctudonghoa.com/wp-content/uploads/2020/10/dong-co-BLDC-3.jpg" alt="Smiley face" width="300" height="250" style="text-align:center;">
+
 - Stato bao gồm lõi thép là các lá thép kỹ thuật điện ghép cách điện với nhau và dây quấn.
 
 - Hình dạng suất điện động của BLDC motor có thể là hình sin hoặc hình thang, tùy theo cách quấn dây và khe hở không khí. Động cơ có suất điện động hình sin tạo ra moment mượt mà hơn động cơ hình thang, mặc dù chi phí cao hơn do chúng sử dụng thêm các cuộn dây đồng.
