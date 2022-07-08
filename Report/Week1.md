@@ -16,7 +16,7 @@
 <div align="center">
     <img src="https://howtomechatronics.com/wp-content/uploads/2019/02/Brushless-motor-main-parts-a-stator-and-a-rotor.png" width="500">
     
-*Construction of BLDC*
+#### *Construction of BLDC*
 </div>
 
 > ### **2. Types of BLDC Motors**
