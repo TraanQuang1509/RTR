@@ -1,0 +1,97 @@
+<h1 align="center"> 2ND WEEK REPORT </h1> 
+
+## ***Intern: Tran Minh Quang***
+
+## **I. Unmanned Aerial vehicle (UAV) - Drone**
+
+> ### **1. Definition**
+
+- A drone is an unmanned aircraft. Drones are more formally known as Unmanned Aerial Vehicles (UAVs) or unmanned aircraft systems. Essentially, a drone is a flying robot that can be remotely controlled or fly autonomously using software-controlled flight plans in its embedded systems, that work in conjunction with onboard sensors and a global positioning system (GPS).
+
+
+<div align="center">
+    <img src="https://www.thecoronawire.com/wp-content/uploads/2021/05/BLOG_What_Types_Of_Drones_Are_There_Every_Type_Of_Drone_Explained_In_Detail_Thumbnail-1200x628.jpg" width=60%>
+    
+*Drone*
+</div>
+
+- UAVs were most often associated with the military. They were initially used for anti-aircraft target practice, intelligence gathering and, more controversially, as weapons platforms. Drones are now also used in a range of civilian roles, including the following:
+  - Search and rescue
+  - Surveillance
+  - Traffic monitoring
+  - Weather monitoring
+  - Firefighting
+  - Personal use
+  - Drone-based photography
+  - Videography
+  - Agriculture
+  - Delivery services
+
+<div align="center">
+    <img src="https://media.istockphoto.com/vectors/drone-usage-and-applications-for-commercial-and-industrial-work-vector-id1225493831" width=60%>
+    
+*Drone applications*
+</div>
+
+> ### **2. Common drone components**
+- Frame
+- Motors
+- Electric Speed Controller (ESC)
+- Flight control/Board
+- Propellers
+- Radio transmitter 
+- Battery, Electronics, and Power Distribution Cables
+- Camera
+- Landing gear
+- Fisrt person video 
+
+> ### **3. Types of drone**
+
+There are 4 popular types of drones
+- Multi-rotor Drones: Multi-rotor drones are the easiest and cheapest option for getting an ‘eye in the sky.’ They also offer greater control over position and framing, and hence they are perfect for aerial photography and surveillance. They are called multi-rotor because they have more than one motor, more commonly tricopters (3 rotors), quadcopters (4 rotors), hexacopters (6 rotors) and octocopters (8 rotors), among others. By far, quadcopters are the most popular multi-rotor drones.
+
+    - Pros: Accessibility, Ease of use, VTOL and hover flight, Good camera control, Can operate in a confined area
+    - Cons: Short flight times, Small payload capacity
+    - Technical Uses: Visual inspections, Thermal reports, Photography & Videography, 3D scans
+
+<div align="center">
+    <img src="https://www.aniwaa.com/wp-content/uploads/2019/02/drone-buying-guide-type-of-drones.jpg" width=60%>
+    
+*Multi-rotor Drones*
+</div>
+
+- Fixed-Wing Drones: A fixed-wing drone has one rigid wing that is designed to look and work like an aeroplane, providing the lift rather than vertical lift rotors. Hence, this drone type only needs the energy to move forward and not to hold itself in the air. This makes them energy-efficient.
+
+  - Pros: Long-endurance flight, Large area coverage, Fast flight speed
+  - Cons: Launch and recovery needs a lot of space, No VTOL/hover, Harder to fly (more training needed)
+  - Technical Uses: Aerial Mapping, Inspection (Forest, Enviroment, Pineline, Power,..), 
+
+<div align="center">
+    <img src="https://3.imimg.com/data3/GC/RT/MY-1167516/fixed-wing-uav-for-aerial-mapping-and-survey-500x500.jpg" width=60%>
+    
+*Fixed-Wing Drones*
+</div>
+
+- Single-Rotor Drones (Helicopter): Single-rotor drone types are strong and durable. They look similar to actual helicopters in structure and design. A single-rotor has just one rotor, which is like one big spinning wing, plus a tail rotor to control direction and stability.
+
+  - Pros: VTOL and hover flight, Long endurance (with gas power), Heavier payload capability
+  - Cons: More dangerous, Harder to fly, more training needed
+  - Technical Uses: Aerial LIDAR laser scan, Surveying, Carrying heavy payloads
+
+<div align="center">
+    <img src="https://image.made-in-china.com/2f0j00mJAQwKEdcguA/Save-28L-Gasoline-Engine-Power-Single-Rotor-Spraying-Drone-Agricultural-Plant-Protection-Drone-Liquid-Tank-28L-Capacity-Long-Endurance.jpg" width=70%>
+    
+*Fixed-Wing Drones*
+</div>
+
+- Fixed-Wing Hybrid VTOL: Hybrid VTOL drone types merge the benefits of fixed-wing and rotor-based designs. This drone type has rotors attached to the fixed wings, allowing it to hover and take off and land vertically. This new category of hybrids are only a few on the market, but as technology advances, this option can be much more popular in the coming years.
+
+  - Pros: VTOL, Long-endurance flight
+  - Cons: Not perfect at either hovering or forward flight, Still in development
+  - Technical Uses: Drone Delivery
+
+<div align="center">
+    <img src="https://www.researchgate.net/profile/Ilyas-Uyanik/publication/331719966/figure/fig4/AS:850895348719621@1579880668625/Fixed-wing-hybrid-VTOL-drone-image-credit-UnmannedSystemsTechnologycom.jpg" width=60%>
+    
+*Fixed-Wing Hybrid VTOL Drones*
+</div>

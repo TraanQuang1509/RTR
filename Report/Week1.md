@@ -22,10 +22,9 @@
 > ### **2. Types of BLDC Motors**
 Basically, BLDC are of two types, one is outer rotor motor and other is inner rotor motor. The basic difference between the two is only in designing, their working principles are same.
 
-- Inner Rotor Design: the rotor is located in the centre of the motor and the stator winding surround the rotor. As the rotor is located in the core, rotor magnets do not insulate heat inside and heat get dissipated easily. Due to this reason, inner rotor designed motor produces a large amount of torque and validly used.
+- Inner Rotor Design (Inrunner motor): the rotor is located in the centre of the motor and the stator winding surround the rotor. As the rotor is located in the core, rotor magnets do not insulate heat inside and heat get dissipated easily. Due to this reason, this style is preferred for applications that require high torque and where high rpm isn’t a requirement.
 
-- Outer Rotor Design: the rotor is located in the centre of the motor and the stator winding surround the rotor. As the rotor is located in the core, rotor magnets do not insulate heat inside and heat get dissipated easily. Due to this reason, inner rotor designed motor produces a large amount of torque and validly used.
-
+- Outer Rotor Design (Outrunner motor): an outrunner motor has the permanent magnets outside the electromagnets. This motor is known for producing less torque than the out runner style, but is capable of spinning at very high rpm.
 <div align="center">
     <img src="https://i.pinimg.com/originals/1d/34/09/1d340941bd00fd427fe1e7497a42be09.png" width=50%>
     
