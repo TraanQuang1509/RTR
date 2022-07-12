@@ -91,7 +91,7 @@ There are 4 popular types of drones
   - Technical Uses: Drone Delivery
 
 <div align="center">
-    <img src="https://www.researchgate.net/profile/Ilyas-Uyanik/publication/331719966/figure/fig4/AS:850895348719621@1579880668625/Fixed-wing-hybrid-VTOL-drone-image-credit-UnmannedSystemsTechnologycom.jpg" width=60%>
+    <img src="https://www.suasnews.com/wp-content/uploads/2016/06/jouav-cw10.jpg" width=60%>
     
 *Fixed-Wing Hybrid VTOL Drones*
 </div>
