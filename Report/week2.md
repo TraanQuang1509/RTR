@@ -96,27 +96,6 @@ There are 4 popular types of drones
 *Fixed-Wing Hybrid VTOL Drones*
 </div>
 
-> ### **3. Working principle**
-
-- Quadcopter
-
-<div align="center">
-    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-36.png" width="60%" >
-    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-37.png" width="60%" >
-
-*Working principle of Quadcopter*
-</div>
-
-- Helicopter
-
-<div align="center">
-    <img src="https://www.helis.com/howflies/anim04.gif" width="70%" >
-    <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="50%">
-
-*Working principle of Quadcopter*
-</div>
-
-
 ## **II. Aerodynamics: The Theory of Lift**
 
 - The incorrect theories all try to apply either Bernoulli's principle or Newton's Third Law, however they make errors and assumptions that do not correspond with the nature of aerodynamics.
@@ -138,3 +117,23 @@ There are 4 popular types of drones
 </div>
 
 - Newton's Third Law states that every force has an equal and opposite reaction force. In the case of an aerofoil, the air flow is being forced downwards by the Coanda effect, deflecting the flow. So the air molecules should be pushing the aerofoil in the opposite direction with equal magnitude, and that reaction force is lift.
+
+> ### **III. Working principle**
+
+>> **1. Helicopter**
+
+<div align="center">
+    <img src="https://www.helis.com/howflies/anim04.gif" width="70%" >
+    <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="50%">
+
+*Working principle of Helicopter*
+</div>
+
+> **2. Quadcopter**
+
+<div align="center">
+    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-36.png" width="60%" >
+    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-37.png" width="60%" >
+
+*Working principle of Quadcopter*
+</div>
