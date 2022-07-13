@@ -118,25 +118,45 @@ There are 4 popular types of drones
 
 - Newton's Third Law states that every force has an equal and opposite reaction force. In the case of an aerofoil, the air flow is being forced downwards by the Coanda effect, deflecting the flow. So the air molecules should be pushing the aerofoil in the opposite direction with equal magnitude, and that reaction force is lift.
 
-> ### **III. Working principle**
+> ### **III. Working principle of Quadcopter**
 
->> **1. Helicopter**
+- There are many popular types of quadcopter and generally have two rotors spinning clockwise and two counterclockwise (CCW). Flight control is provided by independent variation of the speed and hence lift and torque of each rotor. Pitch and roll are controlled by varying the net centre of thrust, with yaw controlled by varying the net torque.
+
+<div align="center">
+    <img src="https://thumbs.dreamstime.com/z/motor-order-diagrams-quad-drone-quadcopter-set-vector-infographics-airframes-types-h-v-p-136590187.jpg" width="60%" >
+
+*Types of Quadcopter*
+</div>
+
+- **Climb Ascend** – By increasing the thrust (speed) of the four quadcopter rotors so that the upward force is greater than the weight and pull of gravity.
+
+- **Hover Still** – To hover, the net thrust of the four rotors push the drone up and must be exactly equal to the gravitational force pulling it down.
+
+- **Climb Ascend** – By increasing the thrust (speed) of the four quadcopter rotors so that the upward force is greater than the weight and pull of gravity.
+
+<div align="center">
+    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-36.png" width="60%" >
+
+*Working principle of Quadcopter*
+</div>
+
+- **Yaw** -A quadcopter adjusts its yaw by applying more thrust to rotors rotating in one direction. 
+
+- **Pitch and Roll** - A quadcopter adjusts its pitch or roll by applying more thrust to one rotor (or two adjacent rotors) and less thrust to the diametrically opposite rotor.
+
+<div align="center">
+    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-37.png" width="60%" >
+
+*Working principle of Quadcopter*
+</div>
+
+ <!-- **1. Helicopter**
 
 <div align="center">
     <img src="https://www.helis.com/howflies/anim04.gif" width="70%" >
     <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="50%">
 
 *Working principle of Helicopter*
-</div>
+</div>  -->
 
-> **2. Quadcopter**
-
-<div align="center">
-    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-36.png" width="60%" >
-    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-37.png" width="60%" >
-
-*Working principle of Quadcopter*
-</div>
-
-aksbsdbas
 
