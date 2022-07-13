@@ -103,7 +103,7 @@ There are 4 popular types of drones
 - Bernoulli's equation explains that due to the fact that air molecules are not closely bound together, they are able to flow and move freely around an object. Since the molecules themselves have a velocity associated with them, and the velocity can change depending on where the molecules are with respect to the object, the pressure changes as well.
   
 <div align="center">
-    <img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_585/MTc0NjQ2NDA0OTQ0NTA0NTkx/aerodynamics-the-theory-of-lift.webp" width=60%>
+    <img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_585/MTc0NjQ2NDA0OTQ0NTA0NTkx/aerodynamics-the-theory-of-lift.webp" width=50%>
     
 *Bernoulli's Principle*
 </div>
@@ -111,7 +111,7 @@ There are 4 popular types of drones
 - The air molecules closest to the top surface of the aerofoil are kept close to the surface due to there being higher pressure at the top of the particles as opposed to the bottom of them, supplying the centrifugal force. The high pressure above the particles pushes them towards the aerofoil, which is why they stay attached to the curved surface instead of continuing on a straight path. This is known as the Coanda effect, and acts on the airflow on the lower surface of the aerofoil in the same way. The curved deflection of the air molecules creates a low pressure above the aerofoil and a high pressure below the aerofoil, and this difference in pressure generates the lift.
 
 <div align="center">
-    <img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_588/MTc0NjQ2NDA0OTQ0MjQyNDQ3/aerodynamics-the-theory-of-lift.webp" width=60%>
+    <img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_588/MTc0NjQ2NDA0OTQ0MjQyNDQ3/aerodynamics-the-theory-of-lift.webp" width=50%>
     
 *Newton's Third Law of Motion*
 </div>
