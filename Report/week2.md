@@ -101,8 +101,8 @@ There are 4 popular types of drones
 - Quadcopter
 
 <div align="center">
-    <img src="https://d3i71xaburhd42.cloudfront.net/1f493ab1bf239d230cb0ee5196b98e0bdab86135/2-Figure1-1.png" width="45%" height="300px">
-    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-37.png" width="45%" height="300px">
+    <img src="https://d3i71xaburhd42.cloudfront.net/1f493ab1bf239d230cb0ee5196b98e0bdab86135/2-Figure1-1.png" width="45%" >
+    <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/word-image-37.png" width="45%" >
 
 *Working principle of Quadcopter*
 </div>
@@ -110,8 +110,8 @@ There are 4 popular types of drones
 - Helicopter
 
 <div align="center">
-    <img src="https://www.helis.com/howflies/anim04.gif" width="45%" height="300px">
-    <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="45%" height="300px">
+    <img src="https://www.helis.com/howflies/anim04.gif" width="45%" >
+    <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="45%">
 
 *Working principle of Quadcopter*
 </div>
