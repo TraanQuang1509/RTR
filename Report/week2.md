@@ -111,7 +111,7 @@ There are 4 popular types of drones
 
 <div align="center">
     <img src="https://www.helis.com/howflies/anim04.gif" width="70%" >
-    <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="60%">
+    <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="50%">
 
 *Working principle of Quadcopter*
 </div>
