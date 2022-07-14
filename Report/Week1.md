@@ -89,9 +89,10 @@ Basically, BLDC are of two types, one is outer rotor motor and other is inner ro
 
 - Minimum rate is 50Hz corresponding to 20ms for one period
 
+- Signal delay when updating can be up to 2000us (for 490Hz)
+
 - With a pulse length of 2000uS, the maximum update rate is 500Hz, but in fact, it is only 490Hz (because there must be a break between pulses) and the default is 490Hz
 
-- Signal delay when updating can be up to 2000us (for 490Hz)
 
 > ### **2. OneShot** 
 
