@@ -202,8 +202,8 @@ There are 4 popular types of drones
 - I2C protocol connects low-speed, short-distance peripherals on circuit boards. This protocol is commonly used in reading hardware sensors and reading memory
 
 <div align="center">
-    <img src="https://i.stack.imgur.com/B2O63.png" width="40%" height="400px">
-    <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="40%" height="400px">
+    <img src="https://i.stack.imgur.com/B2O63.png" width="60%">
+    <img src="https://prodigytechno.com/wp-content/uploads/2022/04/Data-Transfer-on-I2C-bus-1-1024x249.png" width="80%">
     
 
 *Serial Peripheral Interface - SPI*
