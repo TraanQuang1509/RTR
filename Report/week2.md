@@ -150,13 +150,53 @@ There are 4 popular types of drones
 *Working principle of Quadcopter*
 </div>
 
- <!-- **1. Helicopter**
+> ### **IV. Serial Communication Protocols**
+
+> ### **1. SPI**
+
+- The SPI means Serial Peripheral Interface. The serial peripheral interface is specifically designed for the connection of microcontrollers. This interface functions at full-duplex and operates at faster data transmission rates
+
+- The SPI interface makes use of the master-to-slave format to regulate several slave devices with a master. SPI utilizes a built-in clock from the master. This helps to ensure the slave and master devices are operating on the same frequency. SPI is commonly used in SD cards and display modules.
+
+- It uses four wires which are:
+
+    - MISO (Master Out Slave)
+    - SS/CS (Chip Select)
+    - SCK (Serial Clock Line)
+    - MOSI (Master In Slave Out)
 
 <div align="center">
-    <img src="https://www.helis.com/howflies/anim04.gif" width="70%" >
-    <img src="https://img.tfd.com/ggse/26/gsed_0001_0004_0_img0628.png" width="50%">
+    <img src="https://dammedientu.vn/wp-content/uploads/2019/05/SPI_Master_three_slaves.png" width="40%" height="500px">
+    <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="40%" height="500px">
+    
 
-*Working principle of Helicopter*
-</div>  -->
+*Serial Peripheral Interface - SPI*
+</div>
 
+- SPI communicates in two different ways.  Firstly, it selects every device with a CS line. Each device needs a separate CS line. The second method involves daisy chaining. Here, every device is connected to another via its data out to the data in line. The number of SPI devices you can connect has no limit.
 
+- Pros
+
+    - Supports full-duplex
+    - Utilizes a master’s clock. So, it doesn’t require precision oscillators in slaves
+    - Faster data transmission rate
+    - Features simple software implementation
+    - Has no stop and start bits
+    - Features no complex slave addressing system
+
+- Cons
+    - There will be complex wiring when more than one slave is in communication
+    - Utilizes four wires
+    - Doesn’t acknowledge data receiving
+    - Doesn’t check errors
+    - It gives room for a single master
+
+> ### **2. I2C**
+
+- I2C means inter-integrated–circuit. This protocol is ideal for modules and sensors. I2C is a bidirectional synchronous serial bus.  It needs two wires for data transmission between devices linked to the bus.
+
+- I2C protocol is ideal for applications that require various parts. 12C can have several masters and slaves
+
+- This protocol features two pins. These pins are the Serial Clock Line (SCL) pin and the Serial Data Line (SDL) pin. The SDL transfers and receives data. Meanwhile, the SCL functions as a clock. The master controls the clock bus.
+
+- I2C protocol connects low-speed, short-distance peripherals on circuit boards. This protocol is commonly used in reading hardware sensors and reading memory
