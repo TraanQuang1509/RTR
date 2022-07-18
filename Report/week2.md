@@ -166,8 +166,8 @@ There are 4 popular types of drones
     - MOSI (Master In Slave Out)
 
 <div align="center">
-    <img src="https://dammedientu.vn/wp-content/uploads/2019/05/SPI_Master_three_slaves.png" width="40%" height="400px">
-    <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="40%" height="400px">
+    <img src="https://dammedientu.vn/wp-content/uploads/2019/05/SPI_Master_three_slaves.png" width="60%">
+    <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="60%">
     
 
 *Serial Peripheral Interface - SPI*
@@ -200,3 +200,12 @@ There are 4 popular types of drones
 - This protocol features two pins. These pins are the Serial Clock Line (SCL) pin and the Serial Data Line (SDL) pin. The SDL transfers and receives data. Meanwhile, the SCL functions as a clock. The master controls the clock bus.
 
 - I2C protocol connects low-speed, short-distance peripherals on circuit boards. This protocol is commonly used in reading hardware sensors and reading memory
+
+<div align="center">
+    <img src="https://i.stack.imgur.com/B2O63.png" width="40%" height="400px">
+    <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="40%" height="400px">
+    
+
+*Serial Peripheral Interface - SPI*
+</div>
+
