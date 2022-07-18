@@ -209,3 +209,37 @@ There are 4 popular types of drones
 *Serial Peripheral Interface - SPI*
 </div>
 
+> ### **3. UART**
+
+- A UART refers to Universal Asynchronous Receiver Transmitter. It is a form of device-to-device digital communication.
+
+- It is a protocol used for full-duplex serial communication. The UART is a chip designed to carry out asynchronous communication.
+
+- The UART features two core components; the receiver and transmitter. The receiver has a control logic, receiver shift register, and a receive hold register. The transmitter features the control logic, transmit hold register, and transmit shift.
+
+- For data transmission to occur, the receiver and the transmitter must agree with some configurations. These are:
+    - Start bit
+    - Baud speed (4800, 9600, 19200,..., 115200)
+    - Parity bit
+    - Stop bit
+    - Data length
+
+<div align="center">
+    <img src="https://www.circuitbasics.com/wp-content/uploads/2016/01/Introduction-to-UART-Basic-Connection-Diagram.png" width="60%">
+    <img src="https://developer.electricimp.com/sites/default/files/attachments/images/uart/uart3.png" width="60%">
+    
+    
+
+*Universal Asynchronous Receiver Transmitter - UART*
+</div>
+
+
+- Pros
+    - It doesn’t need any clock
+    - UART is very easy to operate
+    - Features parity bit that enables error checking
+    - Uses two wires
+- Cons
+    - The data frame size is limited to 9 bits
+    - Features low data transmission speeds
+    - UART can’t use several master systems and slaves
