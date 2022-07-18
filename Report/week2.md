@@ -166,8 +166,8 @@ There are 4 popular types of drones
     - MOSI (Master In Slave Out)
 
 <div align="center">
-    <img src="https://dammedientu.vn/wp-content/uploads/2019/05/SPI_Master_three_slaves.png" width="40%" height="500px">
-    <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="40%" height="500px">
+    <img src="https://dammedientu.vn/wp-content/uploads/2019/05/SPI_Master_three_slaves.png" width="40%" height="400px">
+    <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="40%" height="400px">
     
 
 *Serial Peripheral Interface - SPI*
