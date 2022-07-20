@@ -249,23 +249,31 @@ There are 4 popular types of drones
 
 - In 1986, Bosch introduced the CAN standard at the SAE Congress in Detroit. One year later Intel Corporation began shipments of the first CAN controller chips, and the automotive world was changed forever
 
-- CAN FD is a “Flexible Data (Rate)” version of the CAN bus. The standard length of each message has been increased 800% to 64 bytes, and the maximum data rate has been similarly increased from 1 Mbps to 8 Mbps. The “flexible” part refers to the fact that ECUs can dynamically change their transmission rates and select larger or smaller message sizes, based on real-time requirements.
+- Devices on a CAN bus are called “nodes.” Each node consists of a CPU, CAN controller, and a transceiver, which adapts the signal levels of both data sent and received by the node. All nodes can send and receive data, but not at the same time. All nodes are connected to each other through a two wire bus.
 
-- Advantages of CAN bus: Simple and Low Cost, Fully Centralized, Extremely Robust, Efficient, Reduced Vehicle Weight, Easy Deployment, Resistant to EMI (Electromagnetic Induction)
+<div align="center">
+    <img src="https://capgemini-engineering.com/as-content/uploads/sites/7/2021/11/two-wired-communication-between-nodes.png" width="60%">
 
-- Popular CAN Bus Applications: motorcycles, automobiles, trucks, Ships, Airplanes, Elevators,...
-
-- Devices on a CAN bus are called “nodes.” Each node consists of a CPU, CAN controller, and a transceiver, which adapts the signal levels of both data sent and received by the node. All nodes can send and receive data, but not at the same time.
+*Genenal layout of a CAN bus*
+</div>
 
 - Nodes cannot send data directly to each other. Instead, they send their data onto the network, where it is available to any node to which it has been addressed. The CAN protocol is lossless, employing a bitwise arbitration method to resolve contentions on the bus. 
 
 - With CAN, all data are sent in frames. There are two variants of the message length: standard and extended. The real difference is the additional 18-bit identifier in the arbitration field.
 
-<div align="center">
-    <img src="https://dewesoft.com/upload/news/daq/can-bus/can-data-message-structure.png" width="70%">
-    <img src="https://developer.electricimp.com/sites/default/files/attachments/images/uart/uart3.png" width="60%">
-    
-    
+- Advantages of CAN bus: Simple and Low Cost, Fully Centralized, Extremely Robust, Efficient, Reduced Vehicle Weight, Easy Deployment, Resistant to EMI (Electromagnetic Induction)
 
-*Universal Asynchronous Receiver Transmitter - UART*
+- Popular CAN Bus Applications: motorcycles, automobiles, trucks, Ships, Airplanes, Elevators,...
+<div align="center">
+    <img src="https://dewesoft.com/upload/news/daq/can-bus/can-data-message-structure.png" width="70%"> 
+    <img src="https://i.stack.imgur.com/O00QY.png" width="70%"> 
+
+
+*Standard and Extended frame of the CAN data message architecture*
 </div>
+
+- Variations of the CAN Bus:
+  - Low Speed CAN
+  - High Speed CAN
+  - CAN FD (Flexible Data Rate CAN)
+
