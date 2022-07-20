@@ -133,6 +133,13 @@
 
 - MAVLink is a serial protocol most commonly used to send data and commands between vehicles and ground stations (and between onboard drone components)
 
+<div align="center">
+    <img src="https://ardupilot.org/dev/_images/mavlink-message-flow.png" width="60%"> 
+
+
+*MAVlink Protocol*
+</div>
+
 - The protocol defines a large set of messages 
 
 - MAVLink messages can be sent over almost any serial connection and does not depend upon the underlying technology (wifi, 900mhz radio, etc)
