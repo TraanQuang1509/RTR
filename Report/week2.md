@@ -4,7 +4,7 @@
 
 ## **I. Unmanned Aerial vehicle (UAV) - Drone**
 
-> ### **1. Definition**
+> ### **1.1. Definition**
 
 - A drone is an unmanned aircraft. Drones are more formally known as Unmanned Aerial Vehicles (UAVs) or unmanned aircraft systems. Essentially, a drone is a flying robot that can be remotely controlled or fly autonomously using software-controlled flight plans in its embedded systems, that work in conjunction with onboard sensors and a global positioning system (GPS).
 
@@ -33,7 +33,7 @@
 *Drone applications*
 </div>
 
-> ### **2. Common drone components**
+> ### **1.2. Common drone components**
 - Frame
 - Motors
 - Electric Speed Controller (ESC)
@@ -45,7 +45,7 @@
 - Landing gear
 - Fisrt person video 
 
-> ### **3. Types of drone**
+> ### **1.3. Types of drone**
 
 There are 4 popular types of drones
 - Multi-rotor Drones: Multi-rotor drones are the easiest and cheapest option for getting an ‘eye in the sky.’ They also offer greater control over position and framing, and hence they are perfect for aerial photography and surveillance. They are called multi-rotor because they have more than one motor, more commonly tricopters (3 rotors), quadcopters (4 rotors), hexacopters (6 rotors) and octocopters (8 rotors), among others. By far, quadcopters are the most popular multi-rotor drones.
@@ -152,7 +152,7 @@ There are 4 popular types of drones
 
 > ### **IV. Serial Communication Protocols**
 
-> ### **1. SPI**
+> ### **4.1. SPI**
 
 - The SPI means Serial Peripheral Interface. The serial peripheral interface is specifically designed for the connection of microcontrollers. This interface functions at full-duplex and operates at faster data transmission rates
 
@@ -191,7 +191,7 @@ There are 4 popular types of drones
     - Doesn’t check errors
     - It gives room for a single master
 
-> ### **2. I2C**
+> ### **4.2. I2C**
 
 - I2C means inter-integrated–circuit. This protocol is ideal for modules and sensors. I2C is a bidirectional synchronous serial bus.  It needs two wires for data transmission between devices linked to the bus.
 
@@ -209,7 +209,7 @@ There are 4 popular types of drones
 *Serial Peripheral Interface - SPI*
 </div>
 
-> ### **3. UART**
+> ### **4.3. UART**
 
 - A UART refers to Universal Asynchronous Receiver Transmitter. It is a form of device-to-device digital communication.
 
@@ -233,7 +233,6 @@ There are 4 popular types of drones
 *Universal Asynchronous Receiver Transmitter - UART*
 </div>
 
-
 - Pros
     - It doesn’t need any clock
     - UART is very easy to operate
@@ -243,3 +242,30 @@ There are 4 popular types of drones
     - The data frame size is limited to 9 bits
     - Features low data transmission speeds
     - UART can’t use several master systems and slaves
+
+> ### **4.3. CAN Bus Protocol**
+
+- The Controller Area Network - CAN bus is a message-based protocol designed to allow the Electronic Control Units (ECUs) found in today’s automobiles, as well as other devices, to communicate with each other in a reliable, priority-driven fashion. Messages or “frames” are received by all devices in the network, which does not require a host computer.
+
+- In 1986, Bosch introduced the CAN standard at the SAE Congress in Detroit. One year later Intel Corporation began shipments of the first CAN controller chips, and the automotive world was changed forever
+
+- CAN FD is a “Flexible Data (Rate)” version of the CAN bus. The standard length of each message has been increased 800% to 64 bytes, and the maximum data rate has been similarly increased from 1 Mbps to 8 Mbps. The “flexible” part refers to the fact that ECUs can dynamically change their transmission rates and select larger or smaller message sizes, based on real-time requirements.
+
+- Advantages of CAN bus: Simple and Low Cost, Fully Centralized, Extremely Robust, Efficient, Reduced Vehicle Weight, Easy Deployment, Resistant to EMI (Electromagnetic Induction)
+
+- Popular CAN Bus Applications: motorcycles, automobiles, trucks, Ships, Airplanes, Elevators,...
+
+- Devices on a CAN bus are called “nodes.” Each node consists of a CPU, CAN controller, and a transceiver, which adapts the signal levels of both data sent and received by the node. All nodes can send and receive data, but not at the same time.
+
+- Nodes cannot send data directly to each other. Instead, they send their data onto the network, where it is available to any node to which it has been addressed. The CAN protocol is lossless, employing a bitwise arbitration method to resolve contentions on the bus. 
+
+- With CAN, all data are sent in frames. There are two variants of the message length: standard and extended. The real difference is the additional 18-bit identifier in the arbitration field.
+
+<div align="center">
+    <img src="https://dewesoft.com/upload/news/daq/can-bus/can-data-message-structure.png" width="70%">
+    <img src="https://developer.electricimp.com/sites/default/files/attachments/images/uart/uart3.png" width="60%">
+    
+    
+
+*Universal Asynchronous Receiver Transmitter - UART*
+</div>
