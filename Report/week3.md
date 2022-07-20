@@ -158,7 +158,7 @@
 - The sender always fills in the *"System ID"* and *"Component ID"* fields so that the receiver knows where the packet came from.
 
   - The *"System ID"* is a unique ID for each vehicle or ground station. Ground stations normally use a high system id like “255” and vehicles default to use “1”
-  - The *"Component"* ID for the ground station or flight controller is normally “1”
+  - The *"Component ID"* for the ground station or flight controller is normally “1”
   -  Other MAVLink capable device on the vehicle (i.e. companion computer, gimbal) should use the same *"System ID"* as the flight controller but use a different *"Component ID"*
 
 - The Data portion of the message holds the individual field values being sent
