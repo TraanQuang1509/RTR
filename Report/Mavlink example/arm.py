@@ -9,6 +9,7 @@ the_connection.wait_heartbeat()
 print("Heartbeat from system (system %u component %u)" %
       (the_connection.target_system, the_connection.target_component))
 
+# param1 = 1 to arm the motors
 the_connection.mav.command_long_send(the_connection.target_system, the_connection.target_component,
                                      mavutil.mavlink.MAV_CMD_COMPONENT_ARM_DISARM, 0, 1, 0, 0, 0, 0, 0, 0)
 
