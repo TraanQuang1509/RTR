@@ -9,13 +9,13 @@ the_connection.wait_heartbeat()
 print("Heartbeat from system (system %u component %u)" %
       (the_connection.target_system, the_connection.target_component))
 
-# Move to position relative to home position
+# Move to position relative to home position (local coordinate)
 the_connection.mav.send(mavutil.mavlink.MAVLink_set_position_target_local_ned_message(10, the_connection.target_system,
                         the_connection.target_component, mavutil.mavlink.MAV_FRAME_LOCAL_NED, int(0b110111111000), 100, -100, -10, 0, 0, 0, 0, 0, 0, 0, 0))
 # msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
 # print(msg)
 
-# Move to position move to specified latitude and longitude 
+# Move to position move to specified latitude and longitude (Global coordinate)
 # the_connection.mav.send(mavutil.mavlink.MAVLink_set_position_target_global_int_message(10, the_connection.target_system,
 #                         the_connection.target_component, mavutil.mavlink.MAV_FRAME_GLOBAL_RELATIVE_ALT, int(0b110111111000), int(-35.3635935 * 10 ** 7), int(149.1645098 * 10 ** 7), 10, 0, 0, 0, 0, 0, 0, 0, 0))
 # msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
@@ -27,10 +27,7 @@ the_connection.mav.command_long_send(the_connection.target_system, the_connectio
 msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
 print(msg)
 
-# Set speed (param2 - m/s)
-# the_connection.mav.command_long_send(the_connection.target_system, the_connection.target_component,
-#                                      mavutil.mavlink.MAV_CMD_DO_CHANGE_SPEED, 0, 5, 5, 5, 0, 0, 0, 0)
-
+# Monitor Current position of the Copter while moving
 while 1:
     msg = the_connection.recv_match(
         type='LOCAL_POSITION_NED', blocking=True)

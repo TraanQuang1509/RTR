@@ -51,7 +51,11 @@
     - This command has not params
     - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/home.py)
 
-  - **MAV_CMD_CONDITION_YAW**: Point (yaw) the nose of the vehicle towards a specified heading
-    - Param1: If ``param4``=0 (absolute): Target heading in degrees [0-360] (0 is North). If ``param4``=1 (relative): The change in heading (in degrees).
-    - Param2: Speed during yaw change:[deg/second].
-    - Param3: If ``param4``=1 (relative) only: [-1 = CCW, +1 = CW]. This denotes whether the autopilot should add (CW) or subtract (CCW) the degrees (``param1``) from the current heading to calculate the target heading.
+  - **Movement Command**: These commands can be used to control the vehicle’s position, velocity or attitude while in [Guided Mode](https://ardupilot.org/copter/docs/ac2_guidedmode.html#ac2-guidedmode)
+    - **SET_POSITION_TARGET_LOCAL_NED**: Sets a desired vehicle position in a local north-east-down coordinate frame. Used by an external controller to command the vehicle (manual controller or other system).
+    - **SET_POSITION_TARGET_GLOBAL_INT**: Sets a desired vehicle position, velocity, and/or acceleration in a global coordinate system (WGS84). Used by an external controller to command the vehicle (manual controller or other system).
+    - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/move.py)
+
+  - **MAV_CMD_DO_CHANGE_SPEED**: Sets the desired maximum speed in meters/second (only). Both the speed-type and throttle settings are ignored.
+    - Param2: Target speed (m/s).
+    - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/speed.py)
