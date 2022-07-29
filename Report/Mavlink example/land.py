@@ -9,7 +9,7 @@ the_connection.wait_heartbeat()
 print("Heartbeat from system (system %u component %u)" %
       (the_connection.target_system, the_connection.target_component))
 
-# param5:latitude(0=current) param6:longitude
+# param5:latitude(0=current lat) param6:longitude(0=current lon)
 the_connection.mav.command_long_send(the_connection.target_system, the_connection.target_component,
                                      mavutil.mavlink.MAV_CMD_NAV_LAND, 0, 0, 0, 0, 0, 0, 0, 0)
 
