@@ -45,4 +45,4 @@
   - **MAV_CMD_NAV_LAND**: The copter will land at its current location or proceed at current altitude to the lat/lon coordinates provided (if non-zero) and land. This is the mission equivalent of the [LAND flight mode](https://ardupilot.org/copter/docs/land-mode.html#land-mode).
     - Param5: Target latitude(If zero, the Copter will land at the current latitude).
     - Param6: Longitude (If zero, the Copter will land at the current longitude).
-    - See example in Python [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/takeoff.py)
+    - See example in Python [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/land.py)
