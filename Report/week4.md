@@ -48,7 +48,7 @@
     - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/land.py)
 
   - **MAV_CMD_NAV_RETURN_TO_LAUNCH**: Copter return to the home location and then land. The home location is where the vehicle was last armed (or when it first gets GPS lock after arming if the vehicle configuration allows this).
-    - This command has not params
+    - The parameters are all ignored.
     - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/home.py)
 
   - **Movement Command**: These commands can be used to control the vehicle’s position, velocity or attitude while in [Guided Mode](https://ardupilot.org/copter/docs/ac2_guidedmode.html#ac2-guidedmode)
@@ -59,3 +59,7 @@
   - **MAV_CMD_DO_CHANGE_SPEED**: Sets the desired maximum speed in meters/second (only). Both the speed-type and throttle settings are ignored.
     - Param2: Target speed (m/s).
     - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/speed.py)
+
+  - **MAV_CMD_MISSION_START**: This command can be used to start a mission when the Copter is on the ground in AUTO mode. If the vehicle is already in the air then the mission will start as soon as you switch into AUTO mode (so this command is not needed/ignored). This allows a GCS/companion computer to start a mission in AUTO without raising the throttle.
+    - The parameters are all ignored.
+    - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/mission.py)
