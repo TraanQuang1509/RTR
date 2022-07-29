@@ -33,6 +33,10 @@
 
 - MAVLink commands ([MAV_CMD](https://mavlink.io/en/messages/common.html#MAV_CMD)) and messages are different! These commands define the values of up to 7 parameters that are packaged INSIDE specific messages used in the Mission Protocol and Command Protocol. Use commands for actions in missions or if you need acknowledgment and/or retry logic from a request. 
 
-  - MAV_CMD_COMPONENT_ARM_DISARM: The command supports disarming on the ground and in flight (The motors will disarm automatically after landing) 
+  - **MAV_CMD_COMPONENT_ARM_DISARM**: The command supports disarming on the ground and in flight (The motors will disarm automatically after landing) 
     - Param1: 1 to arm, 0 to disarm (only on the ground).
     - Param2: A value of 21196 will disarm the vehicle in flight.
+    - See example in Python [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/arm.py)
+
+  - **MAV_CMD_NAV_TAKEOFF**: The vehicle will climb straight up from it’s current location to the specified altitude. If the mission is begun while the copter is already flying, the vehicle will climb straight up to the specified altitude, if the vehicle is already above the altitude the command will be ignored and the mission will move onto the next command immediately.
+    - Param7: Altitude(m)
