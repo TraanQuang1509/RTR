@@ -16,10 +16,10 @@ the_connection.mav.command_long_send(the_connection.target_system, the_connectio
 msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
 print(msg)
 
-# Set yaw angle param1:angle(deg) param2:speed(deg/s) #param4:abs(0)/rel(1) param3:CW(1)/CCW(0)
-the_connection.mav.command_long_send(the_connection.target_system, the_connection.target_component,
-                                     mavutil.mavlink.MAV_CMD_CONDITION_YAW, 0, 0, 25, 0, 0, 0, 0, 0) #param4 = 0, absolute angle
+# Set yaw angle = 0 (is North)
+# the_connection.mav.command_long_send(the_connection.target_system, the_connection.target_component,
+#                                      mavutil.mavlink.MAV_CMD_CONDITION_YAW, 0, 0, 25, 0, 0, 0, 0, 0) #param4 = 0, absolute angle
+# msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
+# print(msg)
 
-msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
-print(msg)
       

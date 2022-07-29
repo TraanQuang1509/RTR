@@ -36,13 +36,17 @@
   - **MAV_CMD_COMPONENT_ARM_DISARM**: The command supports disarming on the ground and in flight (The motors will disarm automatically after landing) 
     - Param1: 1 to arm, 0 to disarm (only on the ground).
     - Param2: A value of 21196 will disarm the vehicle in flight.
-    - See example in Python [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/arm.py)
+    - See example in Pymavlink  [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/arm.py)
 
   - **MAV_CMD_NAV_TAKEOFF**: The vehicle will climb straight up from it’s current location to the specified altitude. If the mission is begun while the copter is already flying, the vehicle will climb straight up to the specified altitude, if the vehicle is already above the altitude the command will be ignored and the mission will move onto the next command immediately.
     - Param7: Altitude(m)
-    - See example in Python [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/takeoff.py)
+    - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/takeoff.py)
 
   - **MAV_CMD_NAV_LAND**: The copter will land at its current location or proceed at current altitude to the lat/lon coordinates provided (if non-zero) and land. This is the mission equivalent of the [LAND flight mode](https://ardupilot.org/copter/docs/land-mode.html#land-mode).
     - Param5: Target latitude(If zero, the Copter will land at the current latitude).
     - Param6: Longitude (If zero, the Copter will land at the current longitude).
-    - See example in Python [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/land.py)
+    - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/land.py)
+
+  - **MAV_CMD_NAV_RETURN_TO_LAUNCH**: Copter return to the home location and then land. The home location is where the vehicle was last armed (or when it first gets GPS lock after arming if the vehicle configuration allows this).
+    - This command has not params
+    - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/home.py)
