@@ -50,3 +50,8 @@
   - **MAV_CMD_NAV_RETURN_TO_LAUNCH**: Copter return to the home location and then land. The home location is where the vehicle was last armed (or when it first gets GPS lock after arming if the vehicle configuration allows this).
     - This command has not params
     - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/home.py)
+
+  - **MAV_CMD_CONDITION_YAW**: Point (yaw) the nose of the vehicle towards a specified heading
+    - Param1: If ``param4``=0 (absolute): Target heading in degrees [0-360] (0 is North). If ``param4``=1 (relative): The change in heading (in degrees).
+    - Param2: Speed during yaw change:[deg/second].
+    - Param3: If ``param4``=1 (relative) only: [-1 = CCW, +1 = CW]. This denotes whether the autopilot should add (CW) or subtract (CCW) the degrees (``param1``) from the current heading to calculate the target heading.
