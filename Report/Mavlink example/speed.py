@@ -11,5 +11,5 @@ print("Heartbeat from system (system %u component %u)" %
 
 # Set speed (param2 - m/s)
 the_connection.mav.command_long_send(the_connection.target_system, the_connection.target_component,
-                                     mavutil.mavlink.MAV_CMD_DO_CHANGE_SPEED, 0, 5, 5, 5, 0, 0, 0, 0)
+                                     mavutil.mavlink.MAV_CMD_DO_CHANGE_SPEED, 0, 0, 5, 0, 0, 0, 0, 0)
 
