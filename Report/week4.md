@@ -63,3 +63,5 @@
   - **MAV_CMD_MISSION_START**: This command can be used to start a mission when the Copter is on the ground in AUTO mode. If the vehicle is already in the air then the mission will start as soon as you switch into AUTO mode (so this command is not needed/ignored). This allows a GCS/companion computer to start a mission in AUTO without raising the throttle.
     - The parameters are all ignored.
     - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/mission.py)
+
+[Simulate Quadcopter by MissionPlanner using Pymavlink](https://www.youtube.com/watch?v=ljK1sFfUoeU)
