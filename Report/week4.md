@@ -40,3 +40,4 @@
 
   - **MAV_CMD_NAV_TAKEOFF**: The vehicle will climb straight up from it’s current location to the specified altitude. If the mission is begun while the copter is already flying, the vehicle will climb straight up to the specified altitude, if the vehicle is already above the altitude the command will be ignored and the mission will move onto the next command immediately.
     - Param7: Altitude(m)
+    - See example in Python [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/takeoff.py)
