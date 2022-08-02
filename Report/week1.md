@@ -164,17 +164,3 @@ The DShot protocol sends a 16bits data packet from the FC to the ESC, where:
 </div>
 
 ## **IV. PID Controller**
-
-
-
-jjj
-
-
-
-
-
-
-
-
-
-
