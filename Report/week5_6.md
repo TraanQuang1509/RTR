@@ -25,7 +25,7 @@
 
 - In 2017 Microsoft Research created AirSim as a simulation platform for AI research and experimentation.
 
-- AirSim is a simulator for drones, cars and more, built on Unreal Engine (they also have experimental support for Unity, but right now it hasn’t been implemented with ArduPilot)
+- AirSim is a simulator for drones, cars and more, built on [Unreal Engine](https://www.unrealengine.com/en-US) (they also have experimental support for Unity, but right now it hasn’t been implemented with ArduPilot)
 
 - It is open-source, cross-platform and provides excellent physically and visually realistic simulations.
 
@@ -55,10 +55,38 @@
 *Airsim Binaries*
 </div>
 
-> #### ***2. Computer Vision Mode***
+> #### ***3. Gathering training data***
+
+- There are two ways you can generate training data from AirSim for deep learning. The easiest way is to simply press the record button in the lower right corner. This will start writing pose and images for each frame. The data logging code is pretty simple and you can modify it to your heart's content.
 
 <div align="center">
-    <img src="images/computervision.mp4" width="60%">
+    <img src="https://i.gzn.jp/img/2017/02/16/microsoft-drone-training-open-source-system/cap00030.jpg" width="60%">
 
-*Airsim Binaries*
+*Airsim Recording*
+</div>
+
+- A better way to generate training data exactly the way you want is by accessing the APIs. This allows you to be in full control of how, what, where and when you want to log data.
+
+
+> #### ***4. Computer Vision Mode***
+
+- In this mode, physics engine is disabled and there is no vehicle, just cameras.
+
+- You can use the keyboard to move around the scene, or use APIs to position available cameras in any arbitrary pose, and collect images such as depth, disparity, surface normals or object segmentation.
+
+<div align="center">
+    <img src="images/computervision.png" width="60%">
+
+*Computer Vision Mode*
+</div>
+
+> #### ***5. Weather Effects***
+
+- Press F10 to see various options available for weather effects. You can also control the weather using APIs. Press F1 to see other options available.
+
+<div align="center">
+    <img src="https://microsoft.github.io/AirSim/images/weather_menu.png" width="40%">
+    <img src="https://news.microsoft.com/wp-content/uploads/prod/sites/549/2022/07/Project-AirSim-4.png" width="60%">
+    
+*Weather Effects*
 </div>
