@@ -30,7 +30,7 @@
 - It is open-source, cross-platform and provides excellent physically and visually realistic simulations.
 
 <div align="center">
-    <img src="https://tesla.ce.pdn.ac.lk/students/pankayaraj/pictures/undergraduate/airsim.png" width="60%">
+    <img src="https://www.scrimmagesim.org/sphinx/html/_images/city_airsim_view.png" width="60%">
 
 *Airsim*
 </div>
