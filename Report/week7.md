@@ -4,7 +4,8 @@
 
 > ## **Image Processing**
 
-> ### **1. Introduction to Machine vision**
+> ## **I. Overview**
+> ### **1.1. Introduction to Machine vision**
 
 - Machine vision encompasses all industrial and non-industrial applications in which a combination of hardware and software provide operational guidance to devices in the execution of their functions based on the capture and processing of images.
 
@@ -14,7 +15,7 @@
 *Introduction to Machine vision*
 </div>
 
-> ### **2. Introduction to Image Processing**
+> ### **1.2. Introduction to Image Processing**
 
 - Image processing is analyzing and manipulating an image using math
 and computer science knowledge.
@@ -45,7 +46,7 @@ and computer science knowledge.
 *Analyze chest X-Rays for signs of Covid-19*
 </div>
 
-> ### **3.Image Representation**
+> ### **1.3.Image Representation**
 
 - Image as a matrix
 
@@ -119,7 +120,7 @@ and computer science knowledge.
 
     - Advanced features: Regions (Centroid, size, shape,...), Lines (equations, start/end points, orientation,...), Keypoints (Location, Direction, scale,...)
 
-> ### **4. Introduction to OpenCV**
+> ### **1.4. Introduction to OpenCV**
 
 - OpenCV: Open Source Computer Vision & Machine Learning software library
 
@@ -131,4 +132,31 @@ and computer science knowledge.
 
 - OpenCV is a cross-plaform, Available in Windows, Linux, Android, MacOS,...
 
-- OpenCV support a wide range of programming languages:
+- OpenCV support a wide range of programming languages: Python, Java, Matlab, NVIDIA Cuda, OpenCL,...
+
+> ## **II. Case Study** 
+> ### **2.1. Object Counting**
+
+<div align="center">
+    <img src="images/Obj_counting.png" width="60%">
+    
+*Simple Object Counting Procedure*
+</div>
+
+- ***Grayscaling of Images***: is the process of converting an image from other color spaces e.g. RGB, CMYK, HSV, etc. to shades of gray. It varies between complete black and complete white. Importance of grayscaling: Dimension reduction, Reduces model complexity, For other algorithms to work,... 
+
+- ***Image binarization*** is the process of taking a grayscale image and converting it to black-and-white, essentially reducing the information contained within the image from 256 shades of gray to 2: black and white, a binary image. 
+
+- ***Contour***: When we join all the points on the boundary of an object, we get a contour. Typically, a specific contour refers to boundary pixels that have the same color and intensity.OpenCV makes it really easy to find and draw contours in images. It provides two simple functions: findContours(), drawContours()
+
+> ### **2.1.1. Image smoothing**
+
+- ***Image smoothing***:  is a key technique in image processing used to reduces noise within an image
+
+<div align="center">
+    <img src="images/smoothing.png" width="60%">
+    
+*Image Smoothing*
+</div>
+
+- 
