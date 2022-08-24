@@ -229,3 +229,33 @@ and computer science knowledge.
 </div>
 
 > ### **2.2. Object Detection**
+
+> ### **2.2.1. Detect edges, contours with Canny**
+
+- ***Canny*** is an edge detection operator that uses a multi-stage algorithm to detect a wide range of edges in images. It was developed by John F. Canny in 1986. Canny also produced a computational theory of edge detection explaining why the technique works.
+
+- Four step process to Canny edge detection: 
+    - *Noise Reduction* using 5x5 Gaussian smoothing. This step is fairly intuitive and straightforward. As we learned from our tutorial on smoothing and blurring, smoothing an image allows us to ignore much of the detail and instead focus on the actual structure.
+
+    - *Finding Intensity Gradient* of the Image, an image gradient is defined as a directional change in image intensity
+
+    <div align="center">
+    <img src="https://firebasestorage.googleapis.com/v0/b/minh-nguyen-blog.appspot.com/o/post-images%2Fopencv%2Fgradient_and_angle.jpg?alt=media&token=4962545e-34bf-4fa5-a9be-f9b6e58ce0a9" width="60%">
+
+    *Computing the gradient magnitude* .
+    </div>
+
+    - *Non-maximum Suppression:* a full scan of image is done to remove any unwanted pixels which may not constitute the edge. For this, at every pixel, pixel is checked if it is a local maximum in its neighborhood in the direction of gradient.
+    <div align="center">
+    <img src="https://docs.opencv.org/4.x/nms.jpg" width="60%">
+
+    *The edge A is above the maxVal, so considered as "sure-edge". Although edge C is below maxVal, it is connected to edge A, so that also considered as valid edge and we get that full curve. But edge B, although it is above minVal and is in same region as that of edge C, it is not connected to any "sure-edge", so that is discarded*
+    </div>
+
+    - *Hysteresis Thresholding* This stage decides which are all edges are really edges and which are not. For this, we need two threshold values, minVal and maxVal. Any edges with intensity gradient more than maxVal are sure to be edges and those below minVal are sure to be non-edges, so discarded. Those who lie between these two thresholds are classified edges or non-edges based on their connectivity. If they are connected to "sure-edge" pixels, they are considered to be part of edges. Otherwise, they are also discarded.
+
+    <div align="center">
+    <img src="https://docs.opencv.org/4.x/hysteresis.jpg" width="60%">
+
+    *Point A is on the edge ( in vertical direction). Gradient direction is normal to the edge. Point B and C are in gradient directions. So point A is checked with point B and C to see if it forms a local maximum. If so, it is considered for next stage, otherwise, it is suppressed ( put to zero)*
+    </div>
