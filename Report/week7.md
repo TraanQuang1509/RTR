@@ -223,7 +223,7 @@ and computer science knowledge.
     - Only apply for binary image
 
 <div align="center">
-<img src="https://www.researchgate.net/profile/Nathalie-Girard/publication/29599685/figure/fig2/AS:309914091180038@1450900685094/Distance-transform-of-the-binary-image-composed-with-a-white-pixel-form-and-a-black-pixel.png" width="60%">
+<img src="https://neubias.github.io/training-resources/figures/distance_transform.png" width="60%">
 
 *Distance transform*
 </div>
