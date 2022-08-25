@@ -161,7 +161,7 @@ and computer science knowledge.
     - ***Averaging (mean filter)***: This is done by convolving an image with a normalized box filter. It simply takes the average of all the pixels under the kernel area and replaces the central element. We should specify the width and height of the kernel. 
 
     <div align="center">
-    <img src=" https://docs.opencv.org/3.4/blur.jpg" width="60%">
+    <img src="https://docs.opencv.org/3.4/blur.jpg" width="60%">
     
     *Image Blurring*
     </div>
