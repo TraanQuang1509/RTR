@@ -1,4 +1,4 @@
-<h1 align="center"> 3RD WEEK REPORT </h1> 
+<h1 align="center"> 3RD WEEK REPORT </h1>
 
 ## ***Intern: Tran Minh Quang***
 
@@ -12,15 +12,14 @@
 
 - It uses four wires which are:
 
-    - MISO (Master Out Slave)
-    - SS/CS (Chip Select)
-    - SCK (Serial Clock Line)
-    - MOSI (Master In Slave Out)
+  - MISO (Master Out Slave)
+  - SS/CS (Chip Select)
+  - SCK (Serial Clock Line)
+  - MOSI (Master In Slave Out)
 
 <div align="center">
     <img src="https://dammedientu.vn/wp-content/uploads/2019/05/SPI_Master_three_slaves.png" width="60%">
     <img src="https://deviot.vn/storage/deviot/Giao%20tiep%20SPI%207.png" width="60%">
-    
 
 *Serial Peripheral Interface - SPI*
 </div>
@@ -29,19 +28,19 @@
 
 - Pros
 
-    - Supports full-duplex
-    - Utilizes a master’s clock. So, it doesn’t require precision oscillators in slaves
-    - Faster data transmission rate
-    - Features simple software implementation
-    - Has no stop and start bits
-    - Features no complex slave addressing system
+  - Supports full-duplex
+  - Utilizes a master’s clock. So, it doesn’t require precision oscillators in slaves
+  - Faster data transmission rate
+  - Features simple software implementation
+  - Has no stop and start bits
+  - Features no complex slave addressing system
 
 - Cons
-    - There will be complex wiring when more than one slave is in communication
-    - Utilizes four wires
-    - Doesn’t acknowledge data receiving
-    - Doesn’t check errors
-    - It gives room for a single master
+  - There will be complex wiring when more than one slave is in communication
+  - Utilizes four wires
+  - Doesn’t acknowledge data receiving
+  - Doesn’t check errors
+  - It gives room for a single master
 
 > ### **4.2. I2C**
 
@@ -56,7 +55,6 @@
 <div align="center">
     <img src="https://i.stack.imgur.com/B2O63.png" width="60%">
     <img src="https://prodigytechno.com/wp-content/uploads/2022/04/Data-Transfer-on-I2C-bus-1-1024x249.png" width="80%">
-    
 
 *Serial Peripheral Interface - SPI*
 </div>
@@ -70,30 +68,28 @@
 - The UART features two core components; the receiver and transmitter. The receiver has a control logic, receiver shift register, and a receive hold register. The transmitter features the control logic, transmit hold register, and transmit shift.
 
 - For data transmission to occur, the receiver and the transmitter must agree with some configurations. These are:
-    - Start bit
-    - Baud speed (4800, 9600, 19200,..., 115200)
-    - Parity bit
-    - Stop bit
-    - Data length
+  - Start bit
+  - Baud speed (4800, 9600, 19200,..., 115200)
+  - Parity bit
+  - Stop bit
+  - Data length
 
 <div align="center">
     <img src="https://www.circuitbasics.com/wp-content/uploads/2016/01/Introduction-to-UART-Basic-Connection-Diagram.png" width="60%">
     <img src="https://developer.electricimp.com/sites/default/files/attachments/images/uart/uart3.png" width="60%">
-    
-    
 
 *Universal Asynchronous Receiver Transmitter - UART*
 </div>
 
 - Pros
-    - It doesn’t need any clock
-    - UART is very easy to operate
-    - Features parity bit that enables error checking
-    - Uses two wires
+  - It doesn’t need any clock
+  - UART is very easy to operate
+  - Features parity bit that enables error checking
+  - Uses two wires
 - Cons
-    - The data frame size is limited to 9 bits
-    - Features low data transmission speeds
-    - UART can’t use several master systems and slaves
+  - The data frame size is limited to 9 bits
+  - Features low data transmission speeds
+  - UART can’t use several master systems and slaves
 
 > ### **4.3. CANBus**
 
@@ -109,17 +105,17 @@
 *Genenal layout of a CAN bus*
 </div>
 
-- Nodes cannot send data directly to each other. Instead, they send their data onto the network, where it is available to any node to which it has been addressed. The CAN protocol is lossless, employing a bitwise arbitration method to resolve contentions on the bus. 
+- Nodes cannot send data directly to each other. Instead, they send their data onto the network, where it is available to any node to which it has been addressed. The CAN protocol is lossless, employing a bitwise arbitration method to resolve contentions on the bus.
 
 - With CAN, all data are sent in frames. There are two variants of the message length: standard and extended. The real difference is the additional 18-bit identifier in the arbitration field.
 
 - Advantages of CAN bus: Simple and Low Cost, Fully Centralized, Extremely Robust, Efficient, Reduced Vehicle Weight, Easy Deployment, Resistant to EMI (Electromagnetic Induction)
 
 - Popular CAN Bus Applications: motorcycles, automobiles, trucks, Ships, Airplanes, Elevators,...
-<div align="center">
-    <img src="https://dewesoft.com/upload/news/daq/can-bus/can-data-message-structure.png" width="70%"> 
-    <img src="https://i.stack.imgur.com/O00QY.png" width="70%"> 
 
+<div align="center">
+    <img src="https://dewesoft.com/upload/news/daq/can-bus/can-data-message-structure.png" width="70%">
+    <img src="https://i.stack.imgur.com/O00QY.png" width="70%">
 
 *Standard and Extended frame of the CAN data message architecture*
 </div>
@@ -134,21 +130,19 @@
 - MAVLink is a serial protocol most commonly used to send data and commands between vehicles and ground stations (and between onboard drone components)
 
 <div align="center">
-    <img src="https://ardupilot.org/dev/_images/mavlink-message-flow.png" width="60%"> 
-
+    <img src="https://ardupilot.org/dev/_images/mavlink-message-flow.png" width="60%">
 
 *MAVlink Protocol*
 </div>
 
-- The protocol defines a large set of messages 
+- The protocol defines a large set of messages
 
 - MAVLink messages can be sent over almost any serial connection and does not depend upon the underlying technology (wifi, 900mhz radio, etc)
 
 - The messages are not guaranteed to be delivered which means ground stations or companion computers must often check the state of the vehicle to determine if a command has been executed
 
 <div align="center">
-    <img src="https://ardupilot.org/dev/_images/mavlink-frame.png" width="60%"> 
-
+    <img src="https://ardupilot.org/dev/_images/mavlink-frame.png" width="60%">
 
 *Message Format of MAVlink*
 </div>
@@ -159,6 +153,6 @@
 
   - The *"System ID"* is a unique ID for each vehicle or ground station. Ground stations normally use a high system id like “255” and vehicles default to use “1”
   - The *"Component ID"* for the ground station or flight controller is normally “1”
-  -  Other MAVLink capable device on the vehicle (i.e. companion computer, gimbal) should use the same *"System ID"* as the flight controller but use a different *"Component ID"*
+  - Other MAVLink capable device on the vehicle (i.e. companion computer, gimbal) should use the same *"System ID"* as the flight controller but use a different *"Component ID"*
 
 - The Data portion of the message holds the individual field values being sent

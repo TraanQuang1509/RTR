@@ -1,4 +1,4 @@
-<h1 align="center"> 4TH WEEK REPORT </h1> 
+<h1 align="center"> 4TH WEEK REPORT </h1>
 
 ## ***Intern: Tran Minh Quang***
 
@@ -12,9 +12,9 @@
 
 - The system id has a value between 1 and 255.
 
-  - The default autopilot system id is usually 1. 
+  - The default autopilot system id is usually 1.
 
-  - GCS systems and developer APIs typically use an ID at the top of the numeric range to reduce ID clashes (e.g. 255). 
+  - GCS systems and developer APIs typically use an ID at the top of the numeric range to reduce ID clashes (e.g. 255).
 
 - Messages can be intended for all systems, specific systems, all components in a system, or specific components within a system. The protocol defines two 8-bit fields that can (optionally) be specified in the message payload to indicate where the message should be sent/routed. If the ids are omitted or set to 0 then the message is considered a broadcast (intended for all systems/components).
   
@@ -31,9 +31,9 @@
 
 > ### **3. Some basic Mission Commands**
 
-- MAVLink commands ([MAV_CMD](https://mavlink.io/en/messages/common.html#MAV_CMD)) and messages are different! These commands define the values of up to 7 parameters that are packaged INSIDE specific messages used in the Mission Protocol and Command Protocol. Use commands for actions in missions or if you need acknowledgment and/or retry logic from a request. 
+- MAVLink commands ([MAV_CMD](https://mavlink.io/en/messages/common.html#MAV_CMD)) and messages are different! These commands define the values of up to 7 parameters that are packaged INSIDE specific messages used in the Mission Protocol and Command Protocol. Use commands for actions in missions or if you need acknowledgment and/or retry logic from a request.
 
-  - **MAV_CMD_COMPONENT_ARM_DISARM**: The command supports disarming on the ground and in flight (The motors will disarm automatically after landing) 
+  - **MAV_CMD_COMPONENT_ARM_DISARM**: The command supports disarming on the ground and in flight (The motors will disarm automatically after landing)
     - Param1: 1 to arm, 0 to disarm (only on the ground).
     - Param2: A value of 21196 will disarm the vehicle in flight.
     - See example in Pymavlink  [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/arm.py)
@@ -64,4 +64,4 @@
     - The parameters are all ignored.
     - See example in Pymavlink [here](https://github.com/TraanQuang1509/RTR/blob/main/Report/Mavlink%20example/mission.py)
 
-### Visit https://www.youtube.com/watch?v=ljK1sFfUoeU to watch simulation
+### Visit <https://www.youtube.com/watch?v=ljK1sFfUoeU> to watch simulation
