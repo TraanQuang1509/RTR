@@ -81,7 +81,7 @@ There are 4 popular types of drones
 <div align="center">
     <img src="https://image.made-in-china.com/2f0j00mJAQwKEdcguA/Save-28L-Gasoline-Engine-Power-Single-Rotor-Spraying-Drone-Agricultural-Plant-Protection-Drone-Liquid-Tank-28L-Capacity-Long-Endurance.jpg" width=70%>
     
-*Fixed-Wing Drones*
+*Helicopter Drones*
 </div>
 
 - Fixed-Wing Hybrid VTOL: Hybrid VTOL drone types merge the benefits of fixed-wing and rotor-based designs. This drone type has rotors attached to the fixed wings, allowing it to hover and take off and land vertically. This new category of hybrids are only a few on the market, but as technology advances, this option can be much more popular in the coming years.
